@@ -60,6 +60,10 @@ DEPEND="${RDEPEND}
 	grc? (
 		x11-misc/xdg-utils
 	)
+	dot? (
+		media-gfx/graphviz
+		media-libs/freetype
+	)
 "
 
 pkg_setup() {	
